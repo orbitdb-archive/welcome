@@ -65,13 +65,15 @@ If there is something missing form this list, please let us know! Either open a 
 
 ### Naming
 
-Why `orbitdb`? Because it was available on GitHub, and it matches [`orbitdb`](https://github.com/haadcode/orbit-db). Why `Orbit`? Because that is the name of [the chat app built on top of orbit-db](https://github.com/haadcode/orbit). Why was that called `Orbit`? You'll have to ask [@haadcode](https://github.com/haadcode), but it's probably something to do with the [InterPlanetary File System (IPFS)](https://github.com/ipfs/ipfs).
+Why "OrbitDB"? Because it was available on GitHub, and it matches [`orbitdb`](https://github.com/orbitdb/orbit-db). Why "Orbit"? Because that is the name of [the chat app built on top of orbit-db](https://github.com/orbitdb/orbit). Why was that called "Orbit"? You'll have to ask [@haadcode](https://github.com/haadcode), but it's probably something to do with the [InterPlanetary File System (IPFS)](https://github.com/ipfs/ipfs).
+
+There are variants of the name. For now, the canonical versions are: OrbitDB for the general project, `orbit-db` for the codebase at `orbitdb/orbit-db`, `@orbitdb` for the organization, and Orbit Chat for what used to be called just Orbit.
 
 ## Contribute
 
 Please contribute! [Dive into the issues](https://github.com/orbitdb/orbitdb/issues)!
 
-Check out our [contributing document](contributing.md) for more information on how we work, and about contributing in general. Please be aware that all interactions related to orbitdb are subject to the IPFS [Code of Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md).
+Check out our [contributing document](contributing.md) for more information on how we work, and about contributing in general. Please be aware that all interactions related to OrbitDB are subject to the OrbitDB [Code of Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md).
 
 Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
