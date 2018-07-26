@@ -1,12 +1,9 @@
-# Contributing
+# Contributing  
 
-[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
-[![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)  
-
-Want to hack on orbitdb? Awesome! Here are instructions to get you started.
+Want to hack on OrbitDB? Awesome! Here are instructions to get you started.
 They are not perfect yet. Please let us know what feels wrong or incomplete.
 
-Orbitdb is an Open Source project and we welcome contributions of all sorts.
+OrbitDB is an Open Source project and we welcome contributions of all sorts.
 There are many ways to help, from reporting issues, contributing code, and
 helping us improve our community.
 
@@ -24,15 +21,15 @@ helping us improve our community.
 
 ### Security Issues
 
-The Orbitdb protocols and their implementations are still in heavy development. This means that there may be problems in our protocols, or there may be mistakes in our implementations. And many people are already running multiformat code in their machines (such as with [IPFS](https://github.com/ipfs/ipfs). So we take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
+The OrbitDB protocols and their implementations are still in heavy development. This means that there may be problems in our protocols, or there may be mistakes in our implementations. And many people are already running multiformat code in their machines (such as with [IPFS](https://github.com/ipfs/ipfs). So we take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
 
-If you find a vulnerability that may affect live deployments -- for example, expose a remote execution exploit -- please send your report privately to juan@ipfs.io. Please DO NOT file a public issue.
+If you find a vulnerability that may affect live deployments -- for example, expose a remote execution exploit -- please send your report privately to somethingsomething@orbit.io. Please DO NOT file a public issue.
 
 If the issue is a protocol weakness or something not yet deployed, just discuss it openly.
 
 ### Community Guidelines
 
-We want to keep the Orbitdb community awesome, growing and collaborative. We need your help to keep it that way. To help with this we've come up with some general guidelines for the community as a whole:
+We want to keep the OrbitDB community awesome, growing and collaborative. We need your help to keep it that way. To help with this we've come up with some general guidelines for the community as a whole:
 
 - Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
 
@@ -42,11 +39,11 @@ We want to keep the Orbitdb community awesome, growing and collaborative. We nee
 
 - Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
 
-There is also a more extensive [https://github.com/ipfs/community/blob/master/code-of-conduct.md](code-of-conduct.md) which we follow, which can be found as part of the related IPFS organisation.
+There is also a more extensive [https://www.contributor-covenant.org/version/1/4/code-of-conduct](code-of-conduct.md) which we follow, which can be found as part of the related Haja Networks organisation.
 
 ### Reporting Issues
 
-If you find bugs, mistakes, inconsistencies in the Orbitdb specs, code or
+If you find bugs, mistakes, inconsistencies in the OrbitDB specs, code or
 documents, please let us know by filing an issue at the appropriate issue
 tracker. No issue is too small.
 
@@ -72,13 +69,13 @@ When considering design proposals for implementations, we are looking for:
 
 ### Community Improvement
 
-The Orbitdb community requires maintenance of various "public infrastructure" resources. These include documentation, GitHub repositories, CI build bots, and more. There is also helping new users with questions, spreading the word about Orbitdb, and so on. Soon, we will be planning and running conferences. Please get in touch if you would like to help out.
+The OrbitDB community requires maintenance of various "public infrastructure" resources. These include documentation, GitHub repositories, CI build bots, and more. There is also helping new users with questions, spreading the word about Orbitdb, and so on. Soon, we will be planning and running conferences. Please get in touch if you would like to help out.
 
 ### Translations
 
 This community moves very fast, and documentation swiftly gets out of date. If you would like to add a translation, please open an issue and ask the project captain for a given repository before filing a pull request, so that we do not waste efforts.
 
-If anyone has any issues understanding the English documentation, please let us know! If you would like to do so privately, please email [@RichardLitt](mailto:richardlitt@ipfs.io). We are very sensitive to language issues, and do not want to turn anyone away from hacking because of their language.
+If anyone has any issues understanding the English documentation, please let us know! If you would like to do so privately, please email [@RichardLitt](mailto:richard.littauer@gmail.com). We are very sensitive to language issues, and do not want to turn anyone away from hacking because of their language.
 
 ### Email List
 
@@ -86,4 +83,4 @@ We do not have an email listserv; all of our conversation is in GitHub. If you w
 
 ### Helping in other ways
 
-Protocol Labs occasionally is able to hire developers for part time or full time positions, to work on Orbitdb. If you are interested, check out [the job listings](http://ipn.io/join/#pm). If you'd like to help in other ways, [email @jbenet directly](mailto:juan@ipfs.io?subject=Contributing to Orbitdb).
+Haja Networks occasionally is able to hire developers for part time or full time positions, to work on OrbitDB. If you are interested, check our hiring status at [jobs](https://haja.io/). If you'd like to help in other ways, [email @contact directly](mailto:contact@haja.io?subject=Contributing to OrbitDB).
