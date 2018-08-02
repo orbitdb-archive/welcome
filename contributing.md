@@ -39,7 +39,7 @@ We want to keep the OrbitDB community awesome, growing and collaborative. We nee
 
 - Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
 
-There is also a more extensive [https://www.contributor-covenant.org/version/1/4/code-of-conduct](code-of-conduct.md) which we follow, which can be found as part of the related Haja Networks organisation.
+There is also a more extensive [Code of conduct](/code-of-conduct.md) which we follow, which can be found as part of the related Haja Networks organisation.
 
 ### Reporting Issues
 
@@ -83,4 +83,4 @@ We do not have an email listserv; all of our conversation is in GitHub. If you w
 
 ### Helping in other ways
 
-Haja Networks occasionally is able to hire developers for part time or full time positions, to work on OrbitDB. If you are interested, check our hiring status at [jobs](https://haja.io/). If you'd like to help in other ways, [email @contact directly](mailto:contact@haja.io?subject=Contributing to OrbitDB).
+Haja Networks occasionally is able to hire developers for part time or full time positions, to work on OrbitDB. If you are interested, check our hiring status at [Haja's website](https://haja.io/). If you'd like to help in other ways, send email to [contact@haja.io](mailto:contact@haja.io?subject=Contributing to OrbitDB).
