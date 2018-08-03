@@ -21,9 +21,9 @@ helping us improve our community.
 
 ### Security Issues
 
-The OrbitDB protocols and their implementations are still in heavy development. This means that there may be problems in our protocols, or there may be mistakes in our implementations. And many people are already running multiformat code in their machines (such as with [IPFS](https://github.com/ipfs/ipfs). So we take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
+The OrbitDB protocols and their implementations are still in heavy development. This means that there may be problems in our protocols, or there may be mistakes in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
 
-If you find a vulnerability that may affect live deployments -- for example, expose a remote execution exploit -- please send your report privately to somethingsomething@orbit.io. Please DO NOT file a public issue.
+If you find a vulnerability that may affect live deployments -- for example, expose a remote execution exploit -- please send your report privately to [contact@haja.io](mailto:contact@haja.io?subject=Security). Please DO NOT file a public issue.
 
 If the issue is a protocol weakness or something not yet deployed, just discuss it openly.
 
@@ -39,7 +39,7 @@ We want to keep the OrbitDB community awesome, growing and collaborative. We nee
 
 - Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
 
-There is also a more extensive [Code of conduct](/code-of-conduct.md) which we follow, which can be found as part of the related Haja Networks organisation.
+There is also a more extensive [Code of conduct](/code-of-conduct.md) which we follow, which can be found as part of the related Haja Networks organiaation.
 
 ### Reporting Issues
 
@@ -75,7 +75,7 @@ The OrbitDB community requires maintenance of various "public infrastructure" re
 
 This community moves very fast, and documentation swiftly gets out of date. If you would like to add a translation, please open an issue and ask the project captain for a given repository before filing a pull request, so that we do not waste efforts.
 
-If anyone has any issues understanding the English documentation, please let us know! If you would like to do so privately, please email [@RichardLitt](mailto:richard.littauer@gmail.com). We are very sensitive to language issues, and do not want to turn anyone away from hacking because of their language.
+If anyone has any issues understanding the English documentation, please let us know! If you would like to do so privately, please email [@RichardLitt](mailto:richard@maintainer.io). We are very sensitive to language issues, and do not want to turn anyone away from hacking because of their language.
 
 ### Email List
 
