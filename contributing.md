@@ -69,7 +69,7 @@ When considering design proposals for implementations, we are looking for:
 
 ### Community Improvement
 
-The OrbitDB community requires maintenance of various "public infrastructure" resources. These include documentation, GitHub repositories, CI build bots, and more. There is also helping new users with questions, spreading the word about Orbitdb, and so on. Soon, we will be planning and running conferences. Please get in touch if you would like to help out.
+The OrbitDB community requires maintenance of various "public infrastructure" resources. These include documentation, GitHub repositories, CI build bots, and more. There is also helping new users with questions, spreading the word about OrbitDB, and so on. Soon, we will be planning and running conferences. Please get in touch if you would like to help out.
 
 ### Translations
 
