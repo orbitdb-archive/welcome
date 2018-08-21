@@ -9,6 +9,14 @@
 
 This organization is a place to bring together all fo the Orbit repositories, and to work together on making orbit better. This repo is the center of that organization.
 
+## Biweekly Calls
+
+We have a fortnightly community call every other Tuesday. The time, date and other info for each week's call is announced [in an issue in this repository](/issues). Propose agenda items for the call by commenting on the issue!
+
+We do not record these calls, as we want people to feel comfortable joining in and talking without worrying about being recorded. If you miss a call, take a look at the notes, in `meeting-notes`.
+
+We rotate the notetaker and facilitator every week. If you would like to be part of the rotation, add your name to `meeting-notes/facilitators.md`!
+
 ## Repositories
 
 The [@orbitdb](https://github.com/orbitdb) organization on GitHub contains many different repositories. For the most part, these fall into three categories: code which relates to OrbitDB, the peer to peer database for the decentralized web; Orbit Chat, a decentralized chat program built using OrbitDB; and various non-code repositories. Those three repositories are:
