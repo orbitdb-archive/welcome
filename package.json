@@ -1,0 +1,25 @@
+{
+  "name": "@orbitdb/welcome",
+  "private": true,
+  "version": "1.0.0",
+  "description": "☄️💫 The OrbitDB community and documentation repo",
+  "scripts": {
+    "toc": "doctoc contributing.md --notitle && doctoc README.md --notitle "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbitdb/welcome.git"
+  },
+  "keywords": [
+    "docs",
+    "community"
+  ],
+  "author": "Richard Littauer <richard.littauer@gmail.com> (https://burntfen.com)",
+  "bugs": {
+    "url": "https://github.com/orbitdb/welcome/issues"
+  },
+  "homepage": "https://github.com/orbitdb/welcome#readme",
+  "dependencies": {
+    "doctoc": "^1.3.1"
+  }
+}

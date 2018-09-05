@@ -7,9 +7,12 @@ OrbitDB is an Open Source project and we welcome contributions of all sorts.
 There are many ways to help, from reporting issues, contributing code, and
 helping us improve our community.
 
-### Topics
+### Table of Contents
 
-- [Topics](#topics)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
 - [Security Issues](#security-issues)
 - [Community Guidelines](#community-guidelines)
 - [Reporting Issues](#reporting-issues)
@@ -17,7 +20,10 @@ helping us improve our community.
 - [Implementation Design](#implementation-design)
 - [Community Improvement](#community-improvement)
 - [Translations](#translations)
+- [Email List](#email-list)
 - [Helping in other ways](#helping-in-other-ways)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ### Security Issues
 
