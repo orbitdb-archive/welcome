@@ -21,4 +21,4 @@ _Show your work!_
 ## Q&A, Help Wanted
 _Ask questions, get answers. Announce issues that need help, get people to help._
 
-<!-- After each call, it is the responsibility of the notetaker to save the last version of the notes in a file in ipfs/pm/meeting-notes, by opening a branch and submitting a PR. -->
+<!-- After each call, it is the responsibility of the notetaker to save the last version of the notes in a file in orbitdb/welcome/feat/biweekly-calls/meeting-notes, by opening a branch and submitting a PR. -->
