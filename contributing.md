@@ -1,4 +1,4 @@
-# Contributing  
+# Contributing
 
 Want to hack on OrbitDB? Awesome! Here are instructions to get you started.
 They are not perfect yet. Please let us know what feels wrong or incomplete.
