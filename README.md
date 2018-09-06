@@ -1,6 +1,7 @@
 # Welcome to OrbitDB!
 
 [![](https://img.shields.io/badge/project-orbit-red.svg?style=flat-square)](https://github.com/orbitdb/orbitdb)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/orbitdb/Lobby)
 [![](https://img.shields.io/badge/freenode-%23orbitdb-blue.svg?style=flat-square)](https://webchat.freenode.net/?channels=%23orbitdb)
 
 > The main repository for discussing orbit
