@@ -7,9 +7,12 @@ OrbitDB is an Open Source project and we welcome contributions of all sorts.
 There are many ways to help, from reporting issues, contributing code, and
 helping us improve our community.
 
-### Topics
+### Table of Contents
 
-- [Topics](#topics)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
 - [Security Issues](#security-issues)
 - [Community Guidelines](#community-guidelines)
 - [Reporting Issues](#reporting-issues)
@@ -17,7 +20,11 @@ helping us improve our community.
 - [Implementation Design](#implementation-design)
 - [Community Improvement](#community-improvement)
 - [Translations](#translations)
+- [Creating new modules](#creating-new-modules)
+- [Email List](#email-list)
 - [Helping in other ways](#helping-in-other-ways)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ### Security Issues
 
@@ -76,6 +83,12 @@ The OrbitDB community requires maintenance of various "public infrastructure" re
 This community moves very fast, and documentation swiftly gets out of date. If you would like to add a translation, please open an issue and ask the project captain for a given repository before filing a pull request, so that we do not waste efforts.
 
 If anyone has any issues understanding the English documentation, please let us know! If you would like to do so privately, please email [@RichardLitt](mailto:richardlitt@orbitdb.org). We are very sensitive to language issues, and do not want to turn anyone away from hacking because of their language.
+
+### Creating new modules
+
+We're a UNIX-friendly organization; we love making lots of small modules that do one thing well, instead of a large monorepo that does a lot of things at the same time. As such, we'll occasionally create new repositories. If you're interested in tackling some of these design problems and starting a new module from scratch, get in touch on the community calls or through an issue here. As well, if you're interested in having your relevant module be part of the @orbitdb organization, open an issue suggesting that you move it over. You'll retain copyright! We would love to have as many relevant packages as possible together.
+
+If you're creating a new repository, please follow the new repository guidelines [orbitdb/repo-template](https://github.com/orbitdb/repo-template).
 
 ### Email List
 

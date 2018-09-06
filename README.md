@@ -4,11 +4,28 @@
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/orbitdb/Lobby)
 [![](https://img.shields.io/badge/freenode-%23orbitdb-blue.svg?style=flat-square)](https://webchat.freenode.net/?channels=%23orbitdb)
 
-> The main repository for discussing orbit
+> ☄️💫 The OrbitDB community and documentation repo
 
 [`orbit-db`](https://github.com/haadcode/orbit-db) is a serverless, distributed, peer-to-peer database. `orbit-db` uses [IPFS](https://ipfs.io/) as its data storage and [IPFS Pubsub](https://github.com/ipfs/go-ipfs/blob/master/core/commands/pubsub.go#L23) to automatically sync databases with peers. It's an eventually consistent database that uses [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) for conflict-free database merges making `orbit-db` an excellent choice for offline-first applications.
 
 This organization is a place to bring together all fo the Orbit repositories, and to work together on making orbit better. This repo is the center of that organization.
+
+## Table of Contents
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Biweekly Calls](#biweekly-calls)
+- [Repositories](#repositories)
+  - [OrbitDB](#orbitdb)
+  - [Orbit Chat](#orbit-chat)
+  - [Other repositories?](#other-repositories)
+  - [Naming](#naming)
+- [Contribute](#contribute)
+- [License](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Biweekly Calls
 
