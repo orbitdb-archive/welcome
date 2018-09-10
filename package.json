@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "☄️💫 The OrbitDB community and documentation repo",
   "scripts": {
-    "toc": "doctoc contributing.md --notitle && doctoc README.md --notitle "
+    "toc": "doctoc contributing.md --notitle && doctoc README.md --notitle && doctoc FAQ.md --no-title"
   },
   "repository": {
     "type": "git",
