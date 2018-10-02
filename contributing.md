@@ -47,11 +47,11 @@ We want to keep the OrbitDB community awesome, growing and collaborative. We nee
 
 - Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
 
-There is also a more extensive [Code of conduct](CODE_OF_CONDUCT.md) which we follow, which can be found as part of the related Haja Networks organization.
+There is also a more extensive [Code of conduct](CODE_OF_CONDUCT.md) which we follow.
 
 #### Moderation
 
-In cases where community members transgress against the values above or in the Code, members of the OrbitDB organization members will use a three-strike warning system, where the aggressor will be warned twice before they are permanently excluded from OrbitDB community spaces. This code applies to Gitter, IRC, and GitHub, and any other future space that OrbitDB uses for communication. For interactions between OrbitDB community members outside of this space, the code also applies if the interactions are reported and deemed to be interfering with community members safely working on OrbitDB together. Moderation conversations, where more serious than simple warnings, will occur in private repositories or by email to ensure anonymity for reporters, and to ensure the safety of the moderators. To report an instance, please see the emails in the [Code of Conduct](CODE_OF_CONDUCT.md).
+In cases where community members transgress against the values above or in the Code, members of the OrbitDB organization members will use a three-strike warning system, where the aggressor will be warned twice before they are permanently excluded from OrbitDB community spaces. This code applies to Gitter, IRC, and GitHub, and any other future space that the OrbitDB community uses for communication. For interactions between OrbitDB community members outside of this space, the code also applies if the interactions are reported and deemed to be interfering with community members safely working on OrbitDB together. Moderation conversations, where more serious than simple warnings, will occur in private repositories or by email to ensure anonymity for reporters, and to ensure the safety of the moderators. To report an instance, please see the emails in the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ### Reporting Issues
 
