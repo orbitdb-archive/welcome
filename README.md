@@ -31,6 +31,8 @@ This organization is a place to bring together all fo the Orbit repositories, an
 
 We have a fortnightly community call every other Tuesday. The time, date and other info for each week's call is announced [in an issue in this repository](/issues). Propose agenda items for the call by commenting on the issue!
 
+Consult the [OrbitDB calendar](calendar.google.com/calendar?cid=b3JiaXRkYi5vcmdfb2xrcWlyanFvazZwdGJuNnAxcGVrdmQyZ29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) for the scheduled dates. 
+
 We do not record these calls, as we want people to feel comfortable joining in and talking without worrying about being recorded. If you miss a call, take a look at the notes, in `meeting-notes`.
 
 We rotate the notetaker and facilitator every week. If you would like to be part of the rotation, add your name to `meeting-notes/facilitators.md`!
@@ -76,7 +78,7 @@ And then there is the Orbit Chat, which is a chat program built on top of OrbitD
 Other repositories include:
 
 - **[orbit](https://github.com/orbitdb/orbit)** - This is a landing page repo, without code, and may be the start for a new Orbit Chat org if we end up making one. It needs to be updated.
-- **[orbit-core](https://github.com/orbitdb/orbit-core)** - 
+- **[orbit-core](https://github.com/orbitdb/orbit-core)** -
 The JavaScript npm module that implements the Orbit Chat protocol.
 - **[orbit-electron](https://github.com/orbitdb/orbit-electron)** - Desktop application for Orbit Chat. Uses orbit-core and IPFS.
 - **[orbit-textui](https://github.com/orbitdb/orbit-textui)** - A terminal client for Orbit Chat.
