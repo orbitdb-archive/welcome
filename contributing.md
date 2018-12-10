@@ -22,6 +22,8 @@ helping us improve our community.
 - [Community Improvement](#community-improvement)
 - [Translations](#translations)
 - [Creating new modules](#creating-new-modules)
+  - [Linting](#linting)
+- [Submitting a PR](#submitting-a-pr)
 - [Email List](#email-list)
 - [Helping in other ways](#helping-in-other-ways)
 
@@ -94,6 +96,66 @@ If anyone has any issues understanding the English documentation, please let us 
 We're a UNIX-friendly organization; we love making lots of small modules that do one thing well, instead of a large monorepo that does a lot of things at the same time. As such, we'll occasionally create new repositories. If you're interested in tackling some of these design problems and starting a new module from scratch, get in touch on the community calls or through an issue here. As well, if you're interested in having your relevant module be part of the @orbitdb organization, open an issue suggesting that you move it over. You'll retain copyright! We would love to have as many relevant packages as possible together.
 
 If you're creating a new repository, please follow the new repository guidelines [orbitdb/repo-template](https://github.com/orbitdb/repo-template).
+
+#### Linting
+
+When contributing code, please "lint first and ask questions later." We use https://standardjs.com to lint our code.
+
+1. Install [`standard`](https://standardjs.com/):
+
+```sh
+$ npm i -D standard # npm install --save-dev standard
+```
+
+2. Add the `lint` script to `package.json`.
+
+```json
+{
+  "scripts": {
+    "lint": "standard --env=mocha"
+  }
+}
+```
+
+3. Run `standard --fix` to fix current issues.
+
+```sh
+$ standard --fix
+```
+
+4. Run the linter.
+
+```
+$ npm run lint
+```
+
+
+***Note:*** If you'd rather have the environment set permanently (for instance, so that your editor can notice it), add this to the `package.json`:
+
+ ```json
+{
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  }
+}
+```
+
+For extra credit, install [`jq`](https://stedolan.github.io/jq/) and `sponge` from GNU's `moreutils` and do it in one line:
+
+```sh
+$ jq '.scripts.lint="standard --env=mocha"' package.json | sponge package.json
+```
+
+### Submitting a PR
+
+When submitting a PR, keep these things in mind:
+
+* **This is open source.** We're working on it! We try to get to PRs as often as we can, but if we don't respond for a few days, feel free to politely ping.
+* **Add tests!** The more, the better. We aim for 110% code coverage for testing. Turn your tests up to 11.
+* **Lint first, ask questions later.** When submitting a PR (or creating a new repository), please adhere to the [`standard`](https://standardjs.com/) style. This helps us cut down on bike shedding immensely.
+* **Open an issue to discuss big PRs _before_ making them.** We don't want your work to be undercut by a simple workaround we could have implemented before! Discussion is the best way to ensure you're on the right track.
 
 ### Email List
 
