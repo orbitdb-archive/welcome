@@ -31,7 +31,7 @@ This organization is a place to bring together all fo the Orbit repositories, an
 
 We have a fortnightly community call every other Tuesday. The time, date and other info for each week's call is announced [in an issue in this repository](/issues). Propose agenda items for the call by commenting on the issue!
 
-Consult the [OrbitDB calendar](calendar.google.com/calendar?cid=b3JiaXRkYi5vcmdfb2xrcWlyanFvazZwdGJuNnAxcGVrdmQyZ29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) for the scheduled dates. 
+Consult the [OrbitDB calendar](https://calendar.google.com/calendar/embed?src=orbitdb.org_olkqirjqok6ptbn6p1pekvd2go%40group.calendar.google.com) for the scheduled dates. 
 
 We do not record these calls, as we want people to feel comfortable joining in and talking without worrying about being recorded. If you miss a call, take a look at the notes, in `meeting-notes`.
 
