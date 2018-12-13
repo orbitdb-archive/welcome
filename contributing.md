@@ -120,7 +120,7 @@ $ npm i -D standard # npm install --save-dev standard
 3. Run `standard --fix` to fix current issues.
 
 ```sh
-$ standard --fix
+$ npx standard --fix
 ```
 
 4. Run the linter.
@@ -139,6 +139,16 @@ $ npm run lint
       "mocha"
     ]
   }
+}
+```
+
+You can also exclude files:
+
+```json
+{
+ "standard": {
+   "ignore": "lib/es5/**/*.js"
+ }
 }
 ```
 
