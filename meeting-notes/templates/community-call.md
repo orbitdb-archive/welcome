@@ -12,13 +12,11 @@
 
 ## Agenda
 _General discussions, decisions, etc._
-<!-- use this format for all topics, demos, etc. that you add to the agenda: -->
-- <Topic> (<your_name>, <estimated length in mins>)
+<!-- Use this format for any agenda item:
+- <Topic> (@GitHub_username, <estimated length in mins>)
+-->
 
-## Demos
-_Show your work!_
-
-## Q&A, Help Wanted
-_Ask questions, get answers. Announce issues that need help, get people to help._
+## Q&A, Help Wanted, Demos
+_Ask questions, get answers. Announce issues that need help, get people to help. And show your work, or suggest links for https://github.com/orbitdb/awesome-orbitdb!_
 
 <!-- After each call, it is the responsibility of the notetaker to save the last version of the notes in a file in orbitdb/welcome/meeting-notes, by opening a branch and submitting a PR. Then, post in the Gitter that the call is over, especially if it was a short call. -->
