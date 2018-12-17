@@ -44,7 +44,7 @@ The [@orbitdb](https://github.com/orbitdb) organization on GitHub contains many 
 - The **[welcome](https://github.com/orbitdb/welcome)** community repo, which you're in right now;
 - **[awesome-orbitdb](https://github.com/orbitdb/awesome-orbitdb)**, which is an attempt to list everything that is using OrbitDB, or could help people. Basically, what has been built? And;
 - **[research](https://github.com/orbitdb/research)**, where you can find research papers and interesting research work on CRDTs and the like.
-
+- **[logo](https://github.com/orbitdb/logo)**, Orbit's brand files, formats and guidelines
 
 ### OrbitDB
 
