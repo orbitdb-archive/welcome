@@ -20,6 +20,7 @@ helping us improve our community.
 - [Protocol Design](#protocol-design)
 - [Implementation Design](#implementation-design)
 - [Community Improvement](#community-improvement)
+- [A small note on licensing year](#a-small-note-on-licensing-year)
 - [Translations](#translations)
 - [Creating new modules](#creating-new-modules)
   - [Linting](#linting)
@@ -83,7 +84,17 @@ When considering design proposals for implementations, we are looking for:
 
 ### Community Improvement
 
-The OrbitDB community requires maintenance of various "public infrastructure" resources. These include documentation, GitHub repositories, CI build bots, and more. There is also helping new users with questions, spreading the word about OrbitDB, and so on. Soon, we will be planning and running conferences. Please get in touch if you would like to help out.
+The OrbitDB community requires maintenance of various "public infrastructure" resources. These include documentation, GitHub repositories, CI build bots, and more. There is also helping new users with questions, spreading the word about OrbitDB, and so on. Soon, we will be planning and running conferences. Please get in touch (in particular, send  [@RichardLitt](mailto:richardlitt@orbitdb.org) an email) if you would like to help out.
+
+### A small note on licensing year
+
+Please don't update the year in the license files. Our policy is:
+
+- Don't remove dates already in notices.
+- Don't bother adding dates in new notices.
+- Don't bother updating years in notices.
+
+Thanks.
 
 ### Translations
 
