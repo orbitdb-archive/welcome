@@ -11,13 +11,15 @@ We use [npmjs](https://www.npmjs.com/) to publish our JavaScript packages. This 
 
 We do not use an @OrbitDB team for scoping packages, due to issues with republishing scoped packages and the long nature of `@orbitdb/orbit-db` as an annoying name to type. Instead, publish under your own name.
 
-However; ensure that you grant publishing rights to another core contributor. The way to do this is to use [`npm owner add @user`](https://docs.npmjs.com/cli/owner).
+However; ensure that you grant publishing rights to another core contributor. The way to do this is to use [`npm owner add @user`](https://docs.npmjs.com/cli/owner). They must already have push access to the repository on GitHub.
 
 When you do this, add this user as `maintainer` in the `maintainer` field. This ensures that everyone knows who is able to publish the package. The `maintainer` field is an Array and can take multiple users. Minimally add their NPM name.
 
 If you do not add a `maintainer` field to the `package.json`, we will assume that there is no other maintainer, and you will be bugged by the community administrator and other developers (please) to add one. :) This is important, for a variety of reasons: bus factor, ease of publishing, ease of access, and working in the public as a maintainer.
 
-When adding a new user as a maintainer, do so in a PR. This publicly states that that person will now be a maintainer for the repository, telling all watchers that another user has been trusted.
+When adding a new user as a maintainer, do so in a PR. This publicly states that that person will now be a maintainer for the repository, telling all watchers that another user has been trusted. Add them as maintainers only after the PR has been merged.
+
+Likewise, when removing access from a maintainer, do so with a PR, removing them, and then remove their access using the npm cli.
 
 ### Minimal viable `package.json`
 
@@ -70,4 +72,4 @@ We preface all of our packages with `orbit-`, `orbit-db` or `orbit-web-`, depend
 
 ### 2FA
 
-Enable it.
+This is required if you have publishing rights to any package. You can learn more about how it works on npm [here](https://docs.npmjs.com/about-two-factor-authentication).
