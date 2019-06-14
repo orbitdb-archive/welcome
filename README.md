@@ -72,6 +72,10 @@ And then, there are a whole host of helper modules. It should be noted that **al
 - **[orbit-db-kvstore](https://github.com/orbitdb/orbit-db-kvstore)** - KeyValue store. Another DB type in OrbitDB. This may occasionally be unclear in the code, where `kvstore` is called `keyvalue` store.
 - **[orbit-db-pubsub](https://github.com/orbitdb/orbit-db-pubsub)** - Message propagation module for OrbitDB. A layer between OrbitDB and IPFS Pubsub.
 - **[orbit-db-store](https://github.com/orbitdb/orbit-db-store)** - Base class for OrbitDB data stores. A Base Class defines the common interface for all databases.
+- **[orbit-db-test-utils](https://github.com/orbitdb/orbit-db-test-utils)** - Reusable utilities for automated testing across the OrbitDB stack
+- **[orbit-db-benchmark-runner](https://github.com/orbitdb/benchmark-runner)** - Benchmark runner for compatible orbit-db repositories.
+- **[orbit-db-storage-adapter](https://github.com/orbitdb/orbitdb-storage-adapter)** - Adapter for any leveldown-compliant store
+- **[orbit-db-io](https://github.com/orbitdb/orbit-db-io)** - IO helper module used within OrbitDB
 
 
 ### Orbit Chat
