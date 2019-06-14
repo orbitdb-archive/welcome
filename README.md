@@ -42,6 +42,8 @@ We rotate the notetaker and facilitator every week. If you would like to be part
 
 The [@orbitdb](https://github.com/orbitdb) organization on GitHub contains many different repositories. For the most part, these fall into three categories: code which relates to OrbitDB, the peer to peer database for the decentralized web; Orbit Chat, a decentralized chat program built using OrbitDB; and various non-code repositories.
 
+![OrbitDB Dependency Graph](./images/OrbitDB_Dependency_Graph.jpg)
+
 ### Code-free repositories
 
 - The **[welcome](https://github.com/orbitdb/welcome)** community repo, which you're in right now;
