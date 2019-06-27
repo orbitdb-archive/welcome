@@ -21,6 +21,7 @@ This organization is a place to bring together all fo the Orbit repositories, an
   - [Code-free repositories](#code-free-repositories)
   - [OrbitDB](#orbitdb)
   - [Orbit Chat](#orbit-chat)
+  - [Multilingual Implementations](#multilingual-implementations)
   - [Other repositories?](#other-repositories)
   - [Naming](#naming)
 - [Contribute](#contribute)
@@ -32,7 +33,7 @@ This organization is a place to bring together all fo the Orbit repositories, an
 
 We have a fortnightly community call every other Tuesday. The time, date and other info for each week's call is announced [in an issue in this repository](/issues). Propose agenda items for the call by commenting on the issue!
 
-Consult the [OrbitDB calendar](https://calendar.google.com/calendar/embed?src=orbitdb.org_olkqirjqok6ptbn6p1pekvd2go%40group.calendar.google.com) for the scheduled dates. 
+Consult the [OrbitDB calendar](https://calendar.google.com/calendar/embed?src=orbitdb.org_olkqirjqok6ptbn6p1pekvd2go%40group.calendar.google.com) for the scheduled dates.
 
 We do not record these calls, as we want people to feel comfortable joining in and talking without worrying about being recorded. If you miss a call, take a look at the notes, in `meeting-notes`.
 
@@ -92,6 +93,14 @@ The JavaScript npm module that implements the Orbit Chat protocol.
 - **[orbit-electron](https://github.com/orbitdb/orbit-electron)** - Desktop application for Orbit Chat. Uses orbit-core and IPFS.
 - **[orbit-textui](https://github.com/orbitdb/orbit-textui)** - A terminal client for Orbit Chat.
 - **[orbit-bot](https://github.com/orbitdb/orbit-bot)** - Unsurprisingly, a bot for Orbit Chat.
+
+### Multilingual Implementations
+
+There has been a recent explosion of awesome, ambitions, community-driven work towards interoperability with other languages. First came the **[orbit-db-http-api](https://github.com/orbitdb/orbit-db-http-api)**, followed by **[py-orbit-db-http-client](https://github.com/orbitdb/py-orbit-db-http-client)**, and  **[go-orbit-db](https://github.com/orbitdb/go-orbit-db)**.
+
+These repos started as community efforts and were brought into the organization soon after. However, search GitHub - there's a lot more.
+
+The best place to find out what is available is likely by asking in the [Gitter](https://gitter.im/orbitdb/Lobby). If you know of any other repos that ought to be included in this section, point them out to us!
 
 ### Other repositories?
 
