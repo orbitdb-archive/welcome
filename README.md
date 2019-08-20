@@ -31,7 +31,7 @@ This organization is a place to bring together all fo the Orbit repositories, an
 
 ## Biweekly Calls
 
-We have a fortnightly community call every other Tuesday. The time, date and other info for each week's call is announced [in an issue in this repository](/issues). Propose agenda items for the call by commenting on the issue!
+We have a fortnightly community call every other Tuesday. The time, date and other info for each week's call is announced [in an issue in this repository](https://github.com/orbitdb/welcome/issues). Propose agenda items for the call by commenting on the issue!
 
 Consult the [OrbitDB calendar](https://calendar.google.com/calendar/embed?src=orbitdb.org_olkqirjqok6ptbn6p1pekvd2go%40group.calendar.google.com) for the scheduled dates.
 
