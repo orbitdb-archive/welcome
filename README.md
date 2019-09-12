@@ -24,6 +24,7 @@ This organization is a place to bring together all fo the Orbit repositories, an
   - [Multilingual Implementations](#multilingual-implementations)
   - [Other repositories?](#other-repositories)
   - [Naming](#naming)
+- [Registries](#registries)
 - [Contribute](#contribute)
 - [License](#license)
 
@@ -114,6 +115,12 @@ If there is something missing form this list, please let us know! Either open a 
 Why "OrbitDB"? Because it was available on GitHub, and it matches [`orbitdb`](https://github.com/orbitdb/orbit-db). Why "Orbit"? Because that is the name of [the chat app built on top of orbit-db](https://github.com/orbitdb/orbit). Why was that called "Orbit"? You'll have to ask [@haadcode](https://github.com/haadcode), but it's probably something to do with the [InterPlanetary File System (IPFS)](https://github.com/ipfs/ipfs).
 
 There are variants of the name. For now, the canonical versions are: OrbitDB for the general project, `orbit-db` for the codebase at `orbitdb/orbit-db`, `@orbitdb` for the organization, and Orbit Chat for what used to be called just Orbit.
+
+## Registries
+
+We maintain OrbitDB accounts on these registries:
+- [npm @orbitdb](https://www.npmjs.com/org/orbitdb)
+- [DockerHub @orbitdb](https://hub.docker.com/u/orbitdb)
 
 ## Contribute
 
