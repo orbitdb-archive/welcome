@@ -185,3 +185,11 @@ We do not have an email listserv; all of our conversation is in GitHub. If you w
 ### Helping in other ways
 
 Haja Networks occasionally is able to hire developers for part time or full time positions, to work on OrbitDB. If you are interested, check our hiring status at [Haja's website](https://haja.io/). If you'd like to help in other ways, send email to [contact@haja.io](mailto:contact@haja.io?subject=Contributing to OrbitDB).
+
+### Becoming a maintainer
+
+If you want to help us with triaging issues, merging PRs, writing code, and maintaining repositories, we would be overjoyed. Maintenance is hard work, and all of the help that we can get from contributors is appreciated. Becoming a maintainer is currently an informal process - stick around for a while, help out where you can, and show the core team that you're interested in more than just having the OrbitDB logo on your GitHub profile. Once you think you're ready, reach out to @RichardLitt on Gitter or by email; he'll talk to to team, and we'll let you know what we think at that stage.
+
+Occasionally, we'll give people access rights straight out of the gate because they have proved themselves before, or because they're the most logical choice for maintainership for certain repositories. For instance, if you wrote a Groovy implementation of OrbitDB, and you want to move it into the OrbitDB organization, you'll retain your maintainer rights for that repository.
+
+If you ever feel that someone should not have maintainer rights, send an email to the community team. Let's talk about it together.
