@@ -1,8 +1,7 @@
 # Welcome to OrbitDB!
 
 [![](https://img.shields.io/badge/project-orbit-red.svg?style=flat-square)](https://github.com/orbitdb/orbitdb)
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/orbitdb/Lobby)
-[![](https://img.shields.io/badge/freenode-%23orbitdb-blue.svg?style=flat-square)](https://webchat.freenode.net/?channels=%23orbitdb)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/orbitdb/Lobby) [![Matrix](https://img.shields.io/badge/matrix-%23orbitdb%3Apermaweb.io-blue.svg)](https://riot.permaweb.io/#/room/#orbitdb:permaweb.io) [![Discord](https://img.shields.io/discord/475789330380488707?color=blueviolet&label=discord)](https://discord.gg/cscuf5T)
 
 > ☄️💫 The OrbitDB community and documentation repo
 
