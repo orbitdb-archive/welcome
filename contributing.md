@@ -27,6 +27,7 @@ helping us improve our community.
 - [Submitting a PR](#submitting-a-pr)
 - [Email List](#email-list)
 - [Helping in other ways](#helping-in-other-ways)
+- [Becoming a maintainer](#becoming-a-maintainer)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -188,7 +189,7 @@ Haja Networks occasionally is able to hire developers for part time or full time
 
 ### Becoming a maintainer
 
-If you want to help us with triaging issues, merging PRs, writing code, and maintaining repositories, we would be overjoyed. Maintenance is hard work, and all of the help that we can get from contributors is appreciated. Becoming a maintainer is currently an informal process - stick around for a while, help out where you can, and show the core team that you're interested in more than just having the OrbitDB logo on your GitHub profile. Once you think you're ready, reach out to @RichardLitt on Gitter or by email; he'll talk to to team, and we'll let you know what we think at that stage.
+If you want to help us with triaging issues, merging PRs, writing code, and maintaining repositories, we would be overjoyed. Maintenance is hard work, and all of the help that we can get from contributors is appreciated. Becoming a maintainer is currently an informal process - stick around for a while, help out where you can, and show the core team that you're interested in more than just having the OrbitDB logo on your GitHub profile. Once you think you're ready, reach out to [@RichardLitt](mailto:richardlitt@orbitdb.org) on [Gitter](https://gitter.im/orbitdb/Lobby) or by his linked email: he'll talk to to team, and we'll let you know what we think at that stage.
 
 Occasionally, we'll give people access rights straight out of the gate because they have proved themselves before, or because they're the most logical choice for maintainership for certain repositories. For instance, if you wrote a Groovy implementation of OrbitDB, and you want to move it into the OrbitDB organization, you'll retain your maintainer rights for that repository.
 
