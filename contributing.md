@@ -185,7 +185,7 @@ We do not have an email listserv; all of our conversation is in GitHub. If you w
 
 ### Helping in other ways
 
-Haja Networks occasionally is able to hire developers for part time or full time positions, to work on OrbitDB. If you are interested, check our hiring status at [Haja's website](https://haja.io/). If you'd like to help in other ways, send email to [contact@haja.io](mailto:contact@haja.io?subject=Contributing to OrbitDB).
+Haja Networks occasionally is able to hire developers for part time or full time positions, to work on OrbitDB. If you are interested, check our hiring status at [Haja's website](https://haja.io/). If you'd like to help in other ways, send an email to [contact@haja.io](mailto:contact@haja.io).
 
 ### Becoming a maintainer
 
