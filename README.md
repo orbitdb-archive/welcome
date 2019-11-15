@@ -59,8 +59,11 @@ OrbitDB is a peer-to-peer database for the decentralized web (to put it succinct
 - **[orbit-db](https://github.com/orbitdb/orbit-db)** - The main repo for OrbitDB.
 - **[ipfs-log](https://github.com/orbitdb/ipfs-log)** -  The most important module used by OrbitDB.
 
+There's also at least one workshop you can try out:
 
-And then, there are a whole host of helper modules. It should be noted that **all** of these are JavaScript modules on npm.
+- **[web3-workshop](https://github.com/orbitdb/web3-workshop)** - A workshop showing how to build a basic app using OrbitDB. This workshop was presented at the OrbitDB session during the #Web3 summit in Berlin, in August 2019.
+
+And then, there are a whole host of modules. It should be noted that **all** of these are JavaScript modules on npm.
 
 - **[crdts](https://github.com/orbitdb/crdts)** - A library of [Conflict-Free Replicated Data Types](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) for JavaScript. Used in [orbit-db-counterstore](https://github.com/orbitdb/orbit-db-counterstore); mostly just one function is used.
 - **[orbit-db-cache](https://github.com/orbitdb/orbit-db-cache)** - Actually a persistency layer, not a cache. Saves the latest HEAD of each db locally into LevelDB. Doesn't store a huge amount of data, just the amount of DBs you have. For all of the dbs you have locally, you have a hash for each.
@@ -77,7 +80,6 @@ And then, there are a whole host of helper modules. It should be noted that **al
 - **[orbit-db-benchmark-runner](https://github.com/orbitdb/benchmark-runner)** - Benchmark runner for compatible orbit-db repositories.
 - **[orbit-db-storage-adapter](https://github.com/orbitdb/orbitdb-storage-adapter)** - Adapter for any leveldown-compliant store
 - **[orbit-db-io](https://github.com/orbitdb/orbit-db-io)** - IO helper module used within OrbitDB
-
 
 ### Orbit Chat
 
@@ -96,7 +98,7 @@ The JavaScript npm module that implements the Orbit Chat protocol.
 
 ### Multilingual Implementations
 
-There has been a recent explosion of awesome, ambitions, community-driven work towards interoperability with other languages. First came the **[orbit-db-http-api](https://github.com/orbitdb/orbit-db-http-api)**, followed by **[py-orbit-db-http-client](https://github.com/orbitdb/py-orbit-db-http-client)**, and  **[go-orbit-db](https://github.com/orbitdb/go-orbit-db)**.
+There has been a recent explosion of awesome, ambitions, community-driven work towards interoperability with other languages. First came the **[orbit-db-http-api](https://github.com/orbitdb/orbit-db-http-api)**, followed by **[py-orbit-db-http-client](https://github.com/orbitdb/py-orbit-db-http-client)**, and  **[go-orbit-db](https://github.com/berty/go-orbit-db)**.
 
 These repos started as community efforts and were brought into the organization soon after. However, search GitHub - there's a lot more.
 
