@@ -13,11 +13,30 @@ We do not use an @OrbitDB team for scoping packages, due to issues with republis
 
 However; ensure that you grant publishing rights to another core contributor. The way to do this is to use [`npm owner add @user`](https://docs.npmjs.com/cli/owner). They must already have push access to the repository on GitHub.
 
-When you do this, add this user as `maintainer` in the `maintainer` field. This ensures that everyone knows who is able to publish the package. The `maintainer` field is an Array and can take multiple users. Minimally add their NPM name.
+When you do this, add this user as a `maintainer` in the `localMaintainers` field. This ensures that everyone knows who is able to publish the package. The `localMaintainers` field is an Array and can take multiple users. Minimally add their NPM name.
 
-If you do not add a `maintainer` field to the `package.json`, we will assume that there is no other maintainer, and you will be bugged by the community administrator and other developers (please) to add one. :) This is important, for a variety of reasons: bus factor, ease of publishing, ease of access, and working in the public as a maintainer.
+```json
+{
+  "localMaintainers": [
+    "richlitt"
+  ]
+}
+```
 
-When adding a new user as a maintainer, do so in a PR. This publicly states that that person will now be a maintainer for the repository, telling all watchers that another user has been trusted. Add them as maintainers only after the PR has been merged.
+Npm automatically creates a `maintainer` field, which isn't shown publicly in the [`package.json`](https://docs.npmjs.com/files/package.json), and which matches the output of `$ npm info`. In order to avoid name collisions and possible issues down the road, we use a custom field to hold this data. The `localMaintainers` field should always match the output of `$ npm info`. The printout looks like this:
+
+```sh
+@orbitdb/example-orbitdb-webpack@0.0.2 | MIT | deps: 1 | versions: 2
+
+...
+
+maintainers:
+- richardlitt <richard.littauer@gmail.com>
+```
+
+If you do not add an `localMaintainers` field to the `package.json`, we will assume that there is no other maintainer, and you will be bugged by the community administrator and other developers (please) to add one. :) This is important, for a variety of reasons: [bus factor](https://en.wikipedia.org/wiki/Bus_factor), ease of publishing, ease of access, and working in the public as a maintainer.
+
+When adding a new user as a maintainer, open a pull request with this change. This publicly states that that person will now be a maintainer for the repository, telling all watchers that another user has been trusted. Add them as maintainers to the package only _after_ the PR has been merged.
 
 Likewise, when removing access from a maintainer, do so with a PR, removing them, and then remove their access using the npm cli.
 
@@ -26,7 +45,7 @@ Likewise, when removing access from a maintainer, do so with a PR, removing them
 * `engines`, `scripts`, `dependencies`, `devDependencies`, and other computational fields are as needed. The rest, however, illustrates the metadata we should have:
 * The `description` should match the GitHub description.
 * The name should match the repository name.
-* `contributors` can be excluded if there is a separate `CONTRIBUTORS.md`.
+* `contributors` can be excluded if there is a separate `CONTRIBUTORS.md`, or if there is an `AUTHORS` file.
 * The `keywords` should generally match the Github topics.
 
 ```json
