@@ -78,7 +78,7 @@ And then, there are a whole host of modules. It should be noted that **all** of 
 - **[orbit-db-store](https://github.com/orbitdb/orbit-db-store)** - Base class for OrbitDB data stores. A Base Class defines the common interface for all databases.
 - **[orbit-db-test-utils](https://github.com/orbitdb/orbit-db-test-utils)** - Reusable utilities for automated testing across the OrbitDB stack
 - **[orbit-db-benchmark-runner](https://github.com/orbitdb/benchmark-runner)** - Benchmark runner for compatible orbit-db repositories.
-- **[orbit-db-storage-adapter](https://github.com/orbitdb/orbitdb-storage-adapter)** - Adapter for any leveldown-compliant store
+- **[orbit-db-storage-adapter](https://github.com/orbitdb/orbit-db-storage-adapter)** - Adapter for any leveldown-compliant store
 - **[orbit-db-io](https://github.com/orbitdb/orbit-db-io)** - IO helper module used within OrbitDB
 
 ### Orbit Chat
