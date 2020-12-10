@@ -29,15 +29,11 @@ This organization is a place to bring together all of the Orbit repositories, an
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Biweekly Calls
+## Calls
 
-We have a fortnightly community call every other Tuesday. The time, date and other info for each week's call is announced [in an issue in this repository](https://github.com/orbitdb/welcome/issues). Propose agenda items for the call by commenting on the issue!
+We sometimes have community calls. At the moment, these are in abeyance. However, if you feel that it would be good to have a call with the OrbitDB community, simply open an issue and ask if others would like to join in.
 
-Consult the [OrbitDB calendar](https://calendar.google.com/calendar/embed?src=orbitdb.org_olkqirjqok6ptbn6p1pekvd2go%40group.calendar.google.com) for the scheduled dates.
-
-We do not record these calls, as we want people to feel comfortable joining in and talking without worrying about being recorded. If you miss a call, take a look at the notes, in `meeting-notes`.
-
-We rotate the notetaker and facilitator every week. If you would like to be part of the rotation, add your name to `meeting-notes/facilitators.md`!
+We do not record these calls, as we want people to feel comfortable joining in and talking without worrying about being recorded. Old notes for meetings are in `meeting-notes`.
 
 ## Repositories
 
