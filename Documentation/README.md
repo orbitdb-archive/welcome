@@ -8,4 +8,4 @@ search and easy to reference documentation.*
 
 1. [Quickstart](Quickstart.md)
 2. [API](API.md)
-3. []
+3. [Manual](Manual.md)
