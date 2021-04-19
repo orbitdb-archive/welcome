@@ -652,4 +652,3 @@ db.events.on('peer.exchanged', (peer, address, heads) => ... )
 ```
 
 Emitted after heads have been exchanged with a peer for a specific database. This will be emitted after every exchange, even if no heads are received from the peer, or if all received heads are already present. (This is in contrast with the `replicated` event, which will only fire when new heads have been received.) Note that `heads` here contains heads *received* as part of the exchange, not heads sent.
-
