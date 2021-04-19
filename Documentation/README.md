@@ -3,3 +3,9 @@
 *This folder is a work-in-progress
 with the goal to create an easy to
 search and easy to reference documentation.*
+
+## Structure
+
+1. [Quickstart](Quickstart.md)
+2. [API](API.md)
+3. []
