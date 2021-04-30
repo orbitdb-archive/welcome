@@ -112,12 +112,12 @@ Before starting, you should know that OrbitDB has different types of databases. 
 > Creates and opens an OrbitDB database.
 
 Returns a `Promise` that resolves to [a database instance](#store-api). `name` (string) should be the database name, not an OrbitDB address (i.e. `user.posts`). `type` is a supported database type (i.e. `eventlog` or [an added custom type](https://github.com/orbitdb/orbit-db#custom-store-types)). `options` is an object with any of the following properties:
-- `accessController` (object): An object, as shown in the example below, containing the key `write` whose value is an array of hex encoded public keys which are used to set write access to the database. `["*"]` can be passed in to give write access to everyone. See the [GETTING STARTED](https://github.com/orbitdb/orbit-db/blob/master/GUIDE.md) guide for more info.
+- `accessController` (object): An object, as shown in the example below, containing the key `write` whose value is an array of hex encoded public keys which are used to set write access to the database. `["*"]` can be passed in to give write access to everyone. See the [GETTING STARTED](docs/GUIDE.md) guide for more info.
 (Default: uses the OrbitDB identity id `orbitdb.identity.id`, which would give write access only to yourself)
 
 - `overwrite` (boolean): Overwrite an existing database (Default: `false`)
 - `replicate` (boolean): Replicate the database with peers, requires IPFS PubSub. (Default: `true`)
-- `meta` (object): An optional object in [database manifest](https://github.com/orbitdb/orbit-db/blob/master/GUIDE.md#address). Immutably stores any JSON-serializable value. Readable via `db.options.meta`. Default: `undefined`.
+- `meta` (object): An optional object in [database manifest](docs/GUIDE.md#address). Immutably stores any JSON-serializable value. Readable via `db.options.meta`. Default: `undefined`.
 
 ```javascript
 const db = await orbitdb.create('user.posts', 'eventlog', {
@@ -158,7 +158,7 @@ Returns a `Promise` that resolves to [a database instance](#store-api). `address
 
 - `localOnly` (boolean): If set to `true`, will throw an error if the database can't be found locally. (Default: `false`)
 - `create` (boolean): Whether or not to create the database if a valid OrbitDB address is not provided. (Default: `false`)
-- `type` (string): A supported database type (i.e. `eventlog` or [an added custom type](https://github.com/orbitdb/orbit-db#custom-store-types)). Required if create is set to `true`. Otherwise it's used to validate the manifest.
+- `type` (string): A supported database type (i.e. `eventlog` or [an added custom type](#custom-store-types)). Required if create is set to `true`. Otherwise it's used to validate the manifest.
 - `overwrite` (boolean): Overwrite an existing database (Default: `false`)
 - `replicate` (boolean): Replicate the database with peers, requires IPFS PubSub. (Default: `true`)
 ```javascript
