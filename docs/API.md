@@ -190,7 +190,7 @@ await orbitdb.stop()
 ### orbitdb.keyvalue(name|address)
 > Creates and opens a keyvalue database
 
-Returns a `Promise` that resolves to a [`KeyValueStore` instance](https://github.com/orbitdb/orbit-db-kvstore).
+Returns a `Promise` that resolves to a [`KeyValueStore` instance](docs/KVStore.md).
 
 ```javascript
 const db = await orbitdb.keyvalue('application.settings')
@@ -242,7 +242,7 @@ Alias for [`orbitdb.keyvalue()`](#orbitdbkeyvaluenameaddress)
 ### orbitdb.log(name|address)
 > Creates and opens an eventlog database
 
-Returns a `Promise` that resolves to a [`EventStore` instance](https://github.com/orbitdb/orbit-db-eventstore).
+Returns a `Promise` that resolves to a [`EventStore` instance](docs/EventStore.md).
 
 ```javascript
 const db = await orbitdb.eventlog('site.visitors')
@@ -302,7 +302,7 @@ Alias for [`orbitdb.log()`](#orbitdblognameaddress)
 ### orbitdb.feed(name|address)
 > Creates and opens a feed database
 
-Returns a `Promise` that resolves to a [`FeedStore` instance](https://github.com/orbitdb/orbit-db-feedstore).
+Returns a `Promise` that resolves to a [`FeedStore` instance](docs/FeedStore.md).
 
 ```javascript
 const db = await orbitdb.feed('orbit-db.issues')
@@ -364,7 +364,7 @@ const all = db.iterator({ limit: -1 })
 ### orbitdb.docs(name|address, options)
 > Creates and opens a docstore database
 
-Returns a `Promise` that resolves to a [`DocumentStore` instance](https://github.com/orbitdb/orbit-db-docstore).
+Returns a `Promise` that resolves to a [`DocumentStore` instance](docs/DocStore.md).
 
 ```javascript
 const db = await orbitdb.docs('orbit.users.shamb0t.profile')
@@ -421,7 +421,7 @@ Alias for [`orbitdb.docs()`](#orbitdbdocsnameaddress-options)
 ### orbitdb.counter(name|address)
 > Creates and opens a counter database
 
-Returns a `Promise` that resolves to a [`CounterStore` instance](https://github.com/orbitdb/orbit-db-counterstore).
+Returns a `Promise` that resolves to a [`CounterStore` instance](docs/CounterStore.md).
 
 ```javascript
 const counter = await orbitdb.counter('song_123.play_count')
