@@ -1,7 +1,7 @@
 - Update Links to local links in this Repo
 - Add section on #custom-store and Access Control Types in API.md
 
-- add
+- move the Store Docs into:
 docs/KVStore.md
 docs/FeedStore.md
 docs/EventStore.md
