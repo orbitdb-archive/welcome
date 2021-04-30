@@ -270,7 +270,9 @@ Returns an `Object` with the contents of the entry.
 
 #### iterator([options])
 
-Returns an `Array` of `Objects` based on the `options`.
+Returns an `Iterator` of `Objects` based on the `options`.
+By default sorted by chronological order from earliest to latest
+entry.
 
 **options** : It is an object which supports the following properties
 
