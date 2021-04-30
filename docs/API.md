@@ -284,7 +284,7 @@ entry.
 
 `lte - (string)`  Less than or equal to, takes an item's `hash` value.
 
-`limit - (integer)`  Limiting the entries of result, defaults to `1`, and `-1` means all items (no limit).
+`limit - (integer)`  Limiting the entries of the result, defaults to `1`, and `-1` means all items (no limit).
 
 `reverse - (boolean)`  If set to true will result in reversing the result.
 
