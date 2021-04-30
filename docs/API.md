@@ -1,6 +1,6 @@
 # OrbitDB API Documentation
 
-Read the **[GETTING STARTED](https://github.com/orbitdb/orbit-db/blob/master/GUIDE.md)** guide for a more in-depth tutorial and to understand how OrbitDB works.
+Read the **[GETTING STARTED](docs/GUIDE.md)** guide for a more in-depth tutorial and to understand how OrbitDB works.
 
 ## Table of Contents
 
@@ -550,7 +550,7 @@ await db.drop()
 
 ### store.identity
 
-Returns an instance of [Identity](https://github.com/orbitdb/orbit-db-identity-provider/blob/master/src/identity.js). The identity is used to sign the database entries. See the [GUIDE](https://github.com/orbitdb/orbit-db/blob/master/GUIDE.md#identity) for more information on how OrbitDB uses identity.
+Returns an instance of [Identity](https://github.com/orbitdb/orbit-db-identity-provider/blob/master/src/identity.js). The identity is used to sign the database entries. See the [GUIDE](docs/GUIDE.md#identity) for more information on how OrbitDB uses identity.
 
 ```javascript
 const identity = db.identity
