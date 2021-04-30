@@ -7,7 +7,7 @@
 
 A log database with traversable history. Entries can be added and removed. Useful for *"shopping cart"* type of use cases, or for example as a feed of blog posts or *"tweets"*.
 
-Used in [orbit-db](https://github.com/haadcode/orbit-db).
+Used in [orbit-db](https://github.com/orbitdb/orbit-db).
 
 ## Table of Contents
 
