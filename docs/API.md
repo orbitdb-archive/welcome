@@ -1,6 +1,6 @@
 # OrbitDB API Documentation
 
-Read the **[GETTING STARTED](docs/GUIDE.md)** guide for a more in-depth tutorial and to understand how OrbitDB works.
+Read the **[GETTING STARTED](GUIDE.md)** guide for a more in-depth tutorial and to understand how OrbitDB works.
 
 ## Table of Contents
 
@@ -112,12 +112,12 @@ Before starting, you should know that OrbitDB has different types of databases. 
 > Creates and opens an OrbitDB database.
 
 Returns a `Promise` that resolves to [a database instance](#store-api). `name` (string) should be the database name, not an OrbitDB address (i.e. `user.posts`). `type` is a supported database type (i.e. `eventlog` or [an added custom type](https://github.com/orbitdb/orbit-db#custom-store-types)). `options` is an object with any of the following properties:
-- `accessController` (object): An object, as shown in the example below, containing the key `write` whose value is an array of hex encoded public keys which are used to set write access to the database. `["*"]` can be passed in to give write access to everyone. See the [GETTING STARTED](docs/GUIDE.md) guide for more info.
+- `accessController` (object): An object, as shown in the example below, containing the key `write` whose value is an array of hex encoded public keys which are used to set write access to the database. `["*"]` can be passed in to give write access to everyone. See the [GETTING STARTED](GUIDE.md) guide for more info.
 (Default: uses the OrbitDB identity id `orbitdb.identity.id`, which would give write access only to yourself)
 
 - `overwrite` (boolean): Overwrite an existing database (Default: `false`)
 - `replicate` (boolean): Replicate the database with peers, requires IPFS PubSub. (Default: `true`)
-- `meta` (object): An optional object in [database manifest](docs/GUIDE.md#address). Immutably stores any JSON-serializable value. Readable via `db.options.meta`. Default: `undefined`.
+- `meta` (object): An optional object in [database manifest](GUIDE.md#address). Immutably stores any JSON-serializable value. Readable via `db.options.meta`. Default: `undefined`.
 
 ```javascript
 const db = await orbitdb.create('user.posts', 'eventlog', {
@@ -190,7 +190,7 @@ await orbitdb.stop()
 ### orbitdb.keyvalue(name|address)
 > Creates and opens a keyvalue database
 
-Returns a `Promise` that resolves to a [`KeyValueStore` instance](docs/KVStore.md).
+Returns a `Promise` that resolves to a [`KeyValueStore` instance](KVStore.md).
 
 ```javascript
 const db = await orbitdb.keyvalue('application.settings')
@@ -242,7 +242,7 @@ Alias for [`orbitdb.keyvalue()`](#orbitdbkeyvaluenameaddress)
 ### orbitdb.log(name|address)
 > Creates and opens an eventlog database
 
-Returns a `Promise` that resolves to a [`EventStore` instance](docs/EventStore.md).
+Returns a `Promise` that resolves to a [`EventStore` instance](EventStore.md).
 
 ```javascript
 const db = await orbitdb.eventlog('site.visitors')
@@ -302,7 +302,7 @@ Alias for [`orbitdb.log()`](#orbitdblognameaddress)
 ### orbitdb.feed(name|address)
 > Creates and opens a feed database
 
-Returns a `Promise` that resolves to a [`FeedStore` instance](docs/FeedStore.md).
+Returns a `Promise` that resolves to a [`FeedStore` instance](FeedStore.md).
 
 ```javascript
 const db = await orbitdb.feed('orbit-db.issues')
@@ -364,7 +364,7 @@ const all = db.iterator({ limit: -1 })
 ### orbitdb.docs(name|address, options)
 > Creates and opens a docstore database
 
-Returns a `Promise` that resolves to a [`DocumentStore` instance](docs/DocStore.md).
+Returns a `Promise` that resolves to a [`DocumentStore` instance](DocStore.md).
 
 ```javascript
 const db = await orbitdb.docs('orbit.users.shamb0t.profile')
@@ -421,7 +421,7 @@ Alias for [`orbitdb.docs()`](#orbitdbdocsnameaddress-options)
 ### orbitdb.counter(name|address)
 > Creates and opens a counter database
 
-Returns a `Promise` that resolves to a [`CounterStore` instance](docs/CounterStore.md).
+Returns a `Promise` that resolves to a [`CounterStore` instance](CounterStore.md).
 
 ```javascript
 const counter = await orbitdb.counter('song_123.play_count')
@@ -550,7 +550,7 @@ await db.drop()
 
 ### store.identity
 
-Returns an instance of [Identity](https://github.com/orbitdb/orbit-db-identity-provider/blob/master/src/identity.js). The identity is used to sign the database entries. See the [GUIDE](docs/GUIDE.md#identity) for more information on how OrbitDB uses identity.
+Returns an instance of [Identity](https://github.com/orbitdb/orbit-db-identity-provider/blob/master/src/identity.js). The identity is used to sign the database entries. See the [GUIDE](GUIDE.md#identity) for more information on how OrbitDB uses identity.
 
 ```javascript
 const identity = db.identity

@@ -6,6 +6,6 @@ search and easy to reference documentation.*
 
 ## Structure
 
-1. [Quickstart](Quickstart.md)
+1. [Quickstart](GUIDE.md)
 2. [API](API.md)
 3. [Manual](Manual.md)
