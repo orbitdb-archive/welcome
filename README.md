@@ -5,7 +5,7 @@
 
 > ☄️💫 The OrbitDB community and documentation repo
 
-[`orbit-db`](https://github.com/haadcode/orbit-db) is a serverless, distributed, peer-to-peer database. `orbit-db` uses [IPFS](https://ipfs.io/) as its data storage and [IPFS Pubsub](https://github.com/ipfs/go-ipfs/blob/master/core/commands/pubsub.go#L23) to automatically sync databases with peers. It's an eventually consistent database that uses [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) for conflict-free database merges making `orbit-db` an excellent choice for offline-first applications.
+[`orbit-db`](https://github.com/orbitdb/orbit-db) is a serverless, distributed, peer-to-peer database. `orbit-db` uses [IPFS](https://ipfs.io/) as its data storage and [IPFS Pubsub](https://github.com/ipfs/go-ipfs/blob/master/core/commands/pubsub.go#L23) to automatically sync databases with peers. It's an eventually consistent database that uses [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) for conflict-free database merges making `orbit-db` an excellent choice for offline-first applications.
 
 This organization is a place to bring together all of the Orbit repositories, and to work together on making orbit better. This repo is the center of that organization.
 
